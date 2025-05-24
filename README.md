@@ -9,7 +9,7 @@ An intelligent Android application that analyzes facial expressions to detect us
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org/)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg)](https://android-arsenal.com/api?level=21)
 
-*Developed by Jatin Sisodia*
+
 
 ## 🚀 Features
 
@@ -387,17 +387,6 @@ This project demonstrates the application of emotion recognition and music recom
 - Music Recommendation Systems with contextual information
 - Human-Computer Interaction for emotion-aware interfaces
 
-## 📞 Support & Contact
-
-### Getting Help
-- **Issues**: Report bugs on [GitHub Issues](https://github.com/sisodiajatin/Uphoria-EmotionBasedMusicApp/issues)
-- **Documentation**: Check project wiki and README
-- **Email**: Contact via GitHub profile
-
-### Developer
-- **Jatin Sisodia** - Full Stack Developer & Project Lead
-- **GitHub**: [@sisodiajatin](https://github.com/sisodiajatin)
-- **Portfolio**: [Personal Projects](https://github.com/sisodiajatin?tab=repositories)
 
 ## 🗺️ Future Enhancements
 
@@ -432,18 +421,3 @@ This project demonstrates the application of emotion recognition and music recom
 - **Comprehensive Testing**: Unit, integration, and UI tests
 
 ---
-
-**Developed with ❤️ by Jatin Sisodia**
-
-*Turning emotions into the perfect soundtrack!* 🎵✨
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **DeepFace Team** - For providing powerful emotion recognition capabilities
-- **Spotify & Last.fm** - For comprehensive music APIs
-- **Google Android Team** - For CameraX and modern development tools
-- **Open Source Community** - For the amazing libraries and frameworks used

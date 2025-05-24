@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Emotion Music</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="result_title">Your Emotional Music Match</string>
+    <string name="take_another">Take Another Photo</string>
+    <string name="mood_prefix">Mood: %1$s</string>
+    <string name="open_spotify">Open in Spotify</string>
+    <string name="album_art_desc">Album artwork</string>
+</resources>

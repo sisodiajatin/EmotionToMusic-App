@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar with back arrow -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/result_title"
+        app:titleTextColor="@color/onPrimary"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:padding="24dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <!-- Mood + emoji -->
+                <TextView
+                    android:id="@+id/mood_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Album artwork -->
+                <ImageView
+                    android:id="@+id/album_art"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher"
+                    android:contentDescription="@string/album_art_desc"/>
+
+                <!-- Song & artist -->
+                <TextView
+                    android:id="@+id/song_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:paddingTop="12dp"/>
+                <TextView
+                    android:id="@+id/artist_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:paddingTop="4dp"/>
+
+                <!-- Open in Spotify -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/open_spotify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/open_spotify"/>
+
+                <!-- Retake button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/retake_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/take_another"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
